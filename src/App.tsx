@@ -51,7 +51,7 @@ const Navigation = () => {
       <div className="section-padding">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a href="#hero" className="text-xl font-bold code-font text-gradient">
-            &lt;SitalNayee /&gt;
+            &lt;SitalKumarNayee /&gt;
           </a>
           
           <div className="hidden lg:flex items-center gap-1">
@@ -190,7 +190,7 @@ const HeroSection = () => {
                 ref={nameRef}
                 className="heading-xl mb-6"
               >
-                <span className="text-white">Sital</span>
+                <span className="text-white">SitalKumar</span>
                 <br />
                 <span className="text-gradient">Nayee</span>
               </h1>
@@ -215,7 +215,7 @@ const HeroSection = () => {
                 </div>
                 <div className="flex items-center gap-2 text-white/60 text-sm">
                   <Phone className="w-4 h-4 text-[#39d0d8]" />
-                  <span>(407) 782-6484</span>
+                  <span>(407) XXX-XXXX</span>
                 </div>
                 <div className="flex items-center gap-2 text-white/60 text-sm">
                   <Mail className="w-4 h-4 text-[#a371f7]" />
@@ -248,7 +248,7 @@ const HeroSection = () => {
                 </div>
                 <img 
                   src="/profile.png" 
-                  alt="Sital Nayee"
+                  alt="SitalKumar Nayee"
                   className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover border-4 border-[#04070a]"
                 />
                 
@@ -1644,7 +1644,7 @@ const FooterSection = () => {
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div>
                 <h4 className="text-xl font-bold code-font text-gradient mb-4">
-                  &lt;SitalNayee /&gt;
+                  &lt;SitalKumarNayee /&gt;
                 </h4>
                 <p className="text-white/50 text-sm leading-relaxed">
                   Data Scientist | BI Developer | Banking Analytics Strategist
@@ -1655,9 +1655,9 @@ const FooterSection = () => {
               <div>
                 <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
                 <div className="space-y-2 text-sm">
-                  <p className="text-white/50">1417 Myrtle Oaks Trail</p>
-                  <p className="text-white/50">Oviedo, FL - 32765</p>
-                  <p className="text-white/50">(407) 782-6484</p>
+                  <p className="text-white/50">XXXX XXXX XXXX XXXX</p>
+                  <p className="text-white/50">XXXX XXXX XXXX XXXX</p>
+                  <p className="text-white/50">(407) XXX-XXXX</p>
                   <p className="text-white/50">sitalnayee@gmail.com</p>
                 </div>
               </div>
@@ -1675,7 +1675,7 @@ const FooterSection = () => {
             
             <div className="text-center pt-8 border-t border-white/5">
               <p className="text-white/30 text-sm">
-                © 2025 Sital Nayee. All rights reserved. | Built with passion for data excellence.
+                © 2025 SitalKumar Nayee. All rights reserved. | Built with passion for data excellence.
               </p>
             </div>
           </div>
