@@ -51,7 +51,7 @@ const Navigation = () => {
       <div className="section-padding">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a href="#hero" className="text-xl font-bold code-font text-gradient">
-            &lt;SitalKumarNayee /&gt;
+            &lt;SitalKumar Nayee /&gt;
           </a>
           
           <div className="hidden lg:flex items-center gap-1">
@@ -152,7 +152,7 @@ const HeroSection = () => {
     >
       <div className="absolute inset-0">
         <img 
-          src="./hero-bg.jpg" 
+          src=`${import.meta.env.BASE_URL}hero-bg.jpg` 
           alt="" 
           className="w-full h-full object-cover opacity-40"
         />
@@ -256,7 +256,7 @@ const HeroSection = () => {
                   <span className="text-sm font-medium text-[#58a6ff]">74+ Dashboards</span>
                 </div>
                 <div className="absolute -bottom-4 -left-4 glass-card px-4 py-2 animate-float-delayed">
-                  <span className="text-sm font-medium text-[#39d0d8]">60+ Certifications</span>
+                  <span className="text-sm font-medium text-[#39d0d8]">20+ Certifications</span>
                 </div>
               </div>
             </div>
@@ -978,7 +978,7 @@ const ProjectsSection = () => {
       duration: '12 Week Project',
       icon: FolderOpen,
       color: '#58a6ff',
-      bgImage: './project-bg-1.jpg',
+      bgImage: `${import.meta.env.BASE_URL}project-bg-1.jpg`,
       details: [
         'With the help of Excel – created Basic Inventory Control Template, Stock Inventory Control Template, Asset Tracking Template, Equipment Inventory Template, Boat Inventory Template, Personal Inventory Template for the company.',
         'Provided Cloud Solutions where real time updates, live backup, and multiple users can edit the same document at once.',
@@ -991,7 +991,7 @@ const ProjectsSection = () => {
       duration: '12 Week Project',
       icon: GitBranch,
       color: '#39d0d8',
-      bgImage: './project-bg-2.jpg',
+      bgImage: `${import.meta.env.BASE_URL}project-bg-2.jpg`,
       details: [
         'Provided fleet management solutions such as Pricing, Demo\'s, benefits, from 6 major fleet management software providers e.g.: Fleetmatics, Omnitracs, Route4Me, Descartes, Breezeworks and Onterra',
         'Benefits Include: Real-Time Fleet Monitoring, Improve Fuel Efficiency, and Reduce labor costs, Decrease Fleet Expenses, Fleet Safety & Security and Improve Customer Service.'
@@ -1003,7 +1003,7 @@ const ProjectsSection = () => {
       duration: '12 Week Project',
       icon: Layers,
       color: '#a371f7',
-      bgImage: './project-bg-3.jpg',
+      bgImage: `${import.meta.env.BASE_URL}project-bg-3.jpg`,
       details: [
         'Design a visual dashboard that displays real-time inventory levels, popular product categories (e.g., live bait, lures, fishing line), and reorder points for specific items. Implement a system to ensure "first-in, first-out" (FIFO) inventory management, minimizing potential losses from spoiled bait. Designed a system to track inventory levels of individual tackle box components (e.g., lures, hooks, weights).',
         'Designed reports that flag bait nearing expiration dates, enabling the company to take proactive measures like offering discounts or promotions.',
@@ -1644,7 +1644,7 @@ const FooterSection = () => {
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div>
                 <h4 className="text-xl font-bold code-font text-gradient mb-4">
-                  &lt;SitalKumarNayee /&gt;
+                  &lt;SitalKumar Nayee /&gt;
                 </h4>
                 <p className="text-white/50 text-sm leading-relaxed">
                   Data Scientist | BI Developer | Banking Analytics Strategist
