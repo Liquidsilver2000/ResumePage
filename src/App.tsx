@@ -152,7 +152,7 @@ const HeroSection = () => {
     >
       <div className="absolute inset-0">
         <img 
-          src=`${import.meta.env.BASE_URL}hero-bg.jpg` 
+          src={`${import.meta.env.BASE_URL}hero-bg.jpg`}
           alt="" 
           className="w-full h-full object-cover opacity-40"
         />
@@ -247,7 +247,7 @@ const HeroSection = () => {
                   <div className="w-full h-full rounded-full bg-[#04070a]" />
                 </div>
                 <img 
-                  src=`${import.meta.env.BASE_URL}profile.png` 
+                  src={`${import.meta.env.BASE_URL}profile.png`} 
                   alt="SitalKumar Nayee"
                   className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover border-4 border-[#04070a]"
                 />
