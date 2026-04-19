@@ -247,7 +247,7 @@ const HeroSection = () => {
                   <div className="w-full h-full rounded-full bg-[#04070a]" />
                 </div>
                 <img 
-                  src="/profile.png" 
+                  src=`${import.meta.env.BASE_URL}profile.png` 
                   alt="SitalKumar Nayee"
                   className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover border-4 border-[#04070a]"
                 />
